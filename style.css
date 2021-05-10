@@ -28,8 +28,8 @@
 @media only screen and (max-device-width: 480px) {
         .main{
 
-            padding-left: 20px;
-            font-size: 30px;
+            padding-left: 3px;
+            font-size: 20px;
             display: inline-block;
             color:blueviolet;
             font-family: 'Orbitron', sans-serif;
@@ -37,7 +37,7 @@
         #text{
             color: blueviolet;
             font-family:'Kalam', cursive;
-            font-size: 20px;
+            font-size: 10px;
             text-align: center;
         }
         
