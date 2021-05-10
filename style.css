@@ -18,18 +18,18 @@
 }
 
 .center{
-    position: relative;
+    text-align: center;
+    position: fixed;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);}
 
+    @media  screen and (max-device-width:480px) {
 
-@media only screen and (max-device-width: 480px) {
         .main{
 
-            padding-left: 1px;
-            font-size: 10px;
+            padding-left: 10px;
             display: inline-block;
             color:blueviolet;
             font-family: 'Orbitron', sans-serif;
@@ -37,11 +37,12 @@
         #text{
             color: blueviolet;
             font-family:'Kalam', cursive;
-            font-size: 10px;
             text-align: center;
         }
         
         .center{
+            font-size: 100%;
+            text-align: center;
             position: fixed;
             top: 50%;
             left: 50%;
@@ -49,3 +50,4 @@
             transform: translate(-50%, -50%);}
         
     }
+
