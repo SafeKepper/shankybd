@@ -24,3 +24,28 @@
     /* bring your own prefixes */
     transform: translate(-50%, -50%);}
 
+
+@media only screen and (max-device-width: 480px) {
+        .main{
+
+            padding-left: 20px;
+            font-size: 30px;
+            display: inline-block;
+            color:blueviolet;
+            font-family: 'Orbitron', sans-serif;
+        }
+        #text{
+            color: blueviolet;
+            font-family:'Kalam', cursive;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .center{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            /* bring your own prefixes */
+            transform: translate(-50%, -50%);}
+        
+    }
