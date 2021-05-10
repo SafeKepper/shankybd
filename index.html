@@ -5,17 +5,24 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-    <p id="days"></p>
-    <p id="hours"></p>
-    <p id="mins"></p>
-    <p id="secs"></p>
-    <h2 id="end"></h2>
+    <audio id="musicplayer" autoplay loop>
+        <source src="music.mp3">
+      </audio>
+      <div class="center">
+        <p id="text"><b>The countdown starts &#127825;&#127825; here da shanky &#128150;<br>
+            Birthday boie &#128540;<b><p>
+        <iframe src="https://giphy.com/embed/11lxCeKo6cHkJy" width="453" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <p class="main" id="days"></p>
+        <p class="main" id="hours"></p>
+        <p class="main" id="mins"></p>
+        <p class="main" id="secs"></p>
+        <h2 class="main" id="end"></h2>
     </div>
+    
     
     <script>
     // The data/time we want to countdown to
-    var countDownDate = new Date("Jul 25, 2021 16:37:52").getTime();
+    var countDownDate = new Date("May 24, 2021 0:00:00").getTime();
 
     // Run myfunc every second
     var myfunc = setInterval(function() {
