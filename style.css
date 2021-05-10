@@ -24,7 +24,11 @@
     /* bring your own prefixes */
     transform: translate(-50%, -50%);}
 
-@media screen and (max-width: 600px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
 
         .main{
 
